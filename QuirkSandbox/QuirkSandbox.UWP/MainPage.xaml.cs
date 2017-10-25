@@ -23,7 +23,7 @@ namespace QuirkSandbox.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new QuirkSandbox.App(new UwpInitializer()));
+            LoadApplication(new QuirkSandbox.Common.App(new UwpInitializer()));
         }
     }
 

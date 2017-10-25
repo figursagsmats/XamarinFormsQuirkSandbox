@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace QuirkSandbox.Views
+namespace QuirkSandbox.Common.Views
 {
     public partial class MainPage : ContentPage
     {

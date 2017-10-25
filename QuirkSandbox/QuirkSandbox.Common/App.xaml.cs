@@ -1,8 +1,8 @@
 ﻿using Prism.Unity;
-using QuirkSandbox.Views;
+using QuirkSandbox.Common.Views;
 using Xamarin.Forms;
 
-namespace QuirkSandbox
+namespace QuirkSandbox.Common
 {
     public partial class App : PrismApplication
     {

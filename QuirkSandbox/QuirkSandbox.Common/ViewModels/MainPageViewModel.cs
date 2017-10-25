@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace QuirkSandbox.ViewModels
+namespace QuirkSandbox.Common.ViewModels
 {
     public class MainPageViewModel : BindableBase, INavigationAware
     {
