@@ -12,13 +12,16 @@ namespace QuirkSandbox.Common
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("NavigationPage/MainPage?title=Hello%20from%20Xamarin.Forms");
+            NavigationService.NavigateAsync("TheMasterDetailPage/NavigationPage/MainPage?title=Hello%20from%20Xamarin.Forms");
         }
 
         protected override void RegisterTypes()
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MainPage>();
+            Container.RegisterTypeForNavigation<TheMasterDetailPage>();
+            Container.RegisterTypeForNavigation<BindingsPage>();
+            Container.RegisterTypeForNavigation<AnotherPage>();
         }
     }
 }

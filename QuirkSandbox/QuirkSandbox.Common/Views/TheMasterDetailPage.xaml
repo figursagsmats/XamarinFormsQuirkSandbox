@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+                  prism:ViewModelLocator.AutowireViewModel="True"
+                  x:Class="QuirkSandbox.Common.Views.TheMasterDetailPage">
+
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Default">
+            <StackLayout>
+                <Button Text="MainPage" Command="{Binding NavigateCommand}" CommandParameter="NavigationPage/MainPage" />
+                <Button Text="BindsingsPage" Command="{Binding NavigateCommand}" CommandParameter="NavigationPage/BindingsPage" />
+                <Button Text="AnotherPage" Command="{Binding NavigateCommand}" CommandParameter="NavigationPage/AnotherPage" />
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>
