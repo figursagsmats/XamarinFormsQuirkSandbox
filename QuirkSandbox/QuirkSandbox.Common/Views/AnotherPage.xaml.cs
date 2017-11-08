@@ -7,6 +7,11 @@ namespace QuirkSandbox.Common.Views
         public AnotherPage()
         {
             InitializeComponent();
+            //var test = new TestView.FormsPlugin.Abstractions.TestViewControl();
+            var b = Plugin.Battery.CrossBattery.Current;
+            var status = b.RemainingChargePercent;
+            label.Text = status.ToString();
+
         }
     }
 }

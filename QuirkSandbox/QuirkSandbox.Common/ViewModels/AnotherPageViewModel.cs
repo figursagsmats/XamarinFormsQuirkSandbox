@@ -10,7 +10,7 @@ namespace QuirkSandbox.Common.ViewModels
 	{
         public AnotherPageViewModel()
         {
-
+            
         }
 	}
 }

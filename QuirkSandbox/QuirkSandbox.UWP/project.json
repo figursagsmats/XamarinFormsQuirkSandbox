@@ -1,11 +1,13 @@
 ﻿{
   "dependencies": {
     "CommonServiceLocator": "1.3.0",
+    "Gaia.Places.XamLibs.ConsistentComponents": "0.2.0-rc2",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "Prism.Core": "6.3.0",
     "Prism.Forms": "6.3.0",
     "Prism.Unity.Forms": "6.3.0",
     "Unity": "4.0.1",
+    "Xam.Plugin.Battery": "1.0.1-rc1",
     "Xamarin.Forms": "2.4.0.18342"
   },
   "frameworks": {
